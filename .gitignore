@@ -1,0 +1,5 @@
+node_modules/
+/temp/**/*.mp4
+/temp/**/*.ogg
+**/*.log
+.env

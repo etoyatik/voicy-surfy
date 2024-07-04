@@ -1,0 +1,36 @@
+{
+  "name": "audiotovideo",
+  "version": "1.0.0",
+  "description": "bot to make video from audio",
+  "main": "start.js",
+  "type": "module",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rdsid/audioToVideo/"
+  },
+  "private": "true",
+  "scripts": {
+    "test": "npm run test",
+    "dev": "nodemon --env-file=.env ./src/bot.js",
+    "start": "node --env-file=.env ./src/bot.js"
+  },
+  "author": "@etoyatik",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "mongodb": "^6.3.0",
+    "telegraf": "^4.15.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "nodemon": "^3.0.3"
+  }
+}
